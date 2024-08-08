@@ -168,7 +168,7 @@ console.log(BMIMark, BMIJohn);
 const error = true
 
 if (BMIMark > BMIJohn) {
-  console.log(`Mark's BMI (${BMIMark}) is higher than John's (${BMIJohn})!`);
+  console.log(`Mark's BMI (${Math.round(BMIMark)}) is higher than John's (${Math.round(BMIJohn)})!`);
 } else {
   console.log(`John's BMI (${BMIJohn}) is higher than Mark's (${BMIMark})!`);
 }
