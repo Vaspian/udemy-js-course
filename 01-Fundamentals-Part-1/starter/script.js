@@ -162,7 +162,7 @@ element`);
 // // const massJohn = 85;
 // // const heightJohn = 1.76;
 
-// const BMIMark = massMark / heightMark ** 2;
+// const BMIMark = massMark / heightMark ** 24
 // const BMIJohn = massJohn / (heightJohn * heightJohn);
 // console.log(BMIMark, BMIJohn);
 // const error = true
