@@ -197,7 +197,7 @@ console.log(n);
 */
 
 // Falsy values are 0, '', undefined, null and NaN - Anything else which is not among those values, then it's truthy
-
+/*
 console.log(Boolean(0));
 console.log(Boolean(undefined));
 console.log(Boolean('Sebas')); // If it was '' empty string, result would be false
@@ -210,3 +210,15 @@ if (money) {
 } else {
   console.log('You should get a job!');
 }
+
+let height = 0;
+if (height) {
+  console.log('YAY! Height is defined');
+} else {
+  console.log('Height is UNDEFINED');
+} */
+
+const age = 18;
+if (age === 18) console.log('You just became an adult :D (strict)');
+
+if (age === 18) console.log('You just became an adult :D (loose)');
