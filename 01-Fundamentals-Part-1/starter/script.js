@@ -218,7 +218,9 @@ if (height) {
   console.log('Height is UNDEFINED');
 } */
 
-const age = 18;
+const age = '18';
 if (age === 18) console.log('You just became an adult :D (strict)');
 
-if (age === 18) console.log('You just became an adult :D (loose)');
+if (age == 18) console.log('You just became an adult :D (loose)'); // DON'T EVER USE THE DOUBLE == OPERATOR!
+
+prompt("What's your favourite number?"):
