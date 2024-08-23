@@ -218,9 +218,71 @@ if (height) {
   console.log('Height is UNDEFINED');
 } */
 
+/*
+
 const age = '18';
 if (age === 18) console.log('You just became an adult :D (strict)');
 
 if (age == 18) console.log('You just became an adult :D (loose)'); // DON'T EVER USE THE DOUBLE == OPERATOR!
 
-prompt("What's your favourite number?"):
+const favourite = Number(prompt("What's your favourite number?"));
+console.log(favourite);
+console.log(typeof favourite);
+
+// if (favourite == 23) { // '23' == 23
+//   console.log('Cool! 23 is an amazing number!');
+// }
+
+if (favourite === 23) { // 22 === 23 -> FALSE
+  console.log('Cool! 23 is an amazing number!');
+} else if (favourite === 7) {
+  console.log('7 is also a cool number!');
+} else if (favourite === 9) {
+  console.log('9 is also a cool number!');
+} else {
+  console.log(`Number is not 23 nor 7 or 9, so it's not cool :(`);
+}
+
+if (favourite !== 23) { // '!=' is the loose version. '!==' is strict preferred
+  console.log('Why not 23?');
+}
+
+*/
+
+const hasDriversLicense = true; // Variable A
+const hasGoodVision = true; // B
+
+console.log(hasDriversLicense && hasGoodVision);
+console.log(hasDriversLicense || hasGoodVision);
+console.log(!hasDriversLicense);
+
+// if (hasDriversLicense && hasGoodVision) {
+//   console.log('Sarah is able to drive!');
+// } else {
+//   console.log('Someone else should drive...');
+// }
+
+const isTired = false; // C
+console.log(hasDriversLicense && hasGoodVision && isTired);
+
+if (hasDriversLicense && hasGoodVision && !isTired) {
+  console.log('Sarah is able to drive!');
+} else {
+  console.log('Someone else should drive...');
+}
+
+// CHALLGENGE #3
+
+/*
+
+const scoreDolphins = (96 + 108 + 89) / 3;
+const scoreKoalas = (88 + 91 + 110) / 3;
+
+if (scoreDolphins > scoreKoalas) {
+    console.log('Dolphins win the trophy');
+} else if (scoreKoalas > scoreDolphins) {
+    console.log('Koalas win the trophy');
+} else console.log('Both win the trophy');
+
+*/
+
