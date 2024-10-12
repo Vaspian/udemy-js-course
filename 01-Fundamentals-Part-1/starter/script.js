@@ -249,18 +249,20 @@ if (favourite !== 23) { // '!=' is the loose version. '!==' is strict preferred
 
 */
 
-const hasDriversLicense = true; // Variable A
+/* const hasDriversLicense = true; // Variable A
 const hasGoodVision = true; // B
 
 console.log(hasDriversLicense && hasGoodVision);
 console.log(hasDriversLicense || hasGoodVision);
 console.log(!hasDriversLicense);
+ */
 
-// if (hasDriversLicense && hasGoodVision) {
-//   console.log('Sarah is able to drive!');
-// } else {
-//   console.log('Someone else should drive...');
-// }
+/* if (hasDriversLicense && hasGoodVision) {
+  console.log('Sarah is able to drive!');
+} else {
+  console.log('Someone else should drive...');
+}
+
 
 const isTired = false; // C
 console.log(hasDriversLicense && hasGoodVision && isTired);
@@ -270,19 +272,76 @@ if (hasDriversLicense && hasGoodVision && !isTired) {
 } else {
   console.log('Someone else should drive...');
 }
+ */
 
-// CHALLGENGE #3
-
-/*
+/* // CHALLGENGE #3
 
 const scoreDolphins = (96 + 108 + 89) / 3;
-const scoreKoalas = (88 + 91 + 110) / 3;
+const scoreKoalas = (88 + 100 + 110) / 3;
+console.log(scoreDolphins, scoreKoalas);
 
 if (scoreDolphins > scoreKoalas) {
-    console.log('Dolphins win the trophy');
+  console.log("Dolphins win the trophy 🏆");
 } else if (scoreKoalas > scoreDolphins) {
-    console.log('Koalas win the trophy');
-} else console.log('Both win the trophy');
+  console.log("Koalas win the trophy 🏆");
+} else {
+  console.log("Both win the trophy 🤝");
+} */
 
-*/
+// BONUS 1
 
+/* const scoreDolphins = (97 + 112 + 101) / 3;
+const scoreKoalas = (109 + 95 + 106) / 3;
+console.log(scoreDolphins, scoreKoalas);
+
+if (scoreDolphins > scoreKoalas && scoreDolphins >= 100) {
+  console.log("Dolphins win the trophy 🏆");
+} else if (scoreKoalas > scoreDolphins && scoreKoalas >= 100) {
+  console.log("Koalas win the trophy 🏆");
+} else if (scoreDolphins == scoreKoalas && scoreDolphins >= 100 && scoreKoalas >= 100) {
+  console.log("Both win the trophy 🤝");
+} else {
+  console.log("No one wins the trophy 😭");
+} */
+
+const day = 'Monday';
+
+/* switch (day) {
+  case 'Monday': // day === 'monday'
+    console.log('Plan course structure');
+    console.log ('Go to coding meetup');
+    break;
+  case 'Tuesday':
+    console.log('Prepare theory videos');
+    break;
+  case 'Wednesday':
+  case 'Thursday':
+    console.log('Write code examples');
+    break;
+  case 'Friday':
+    console.log('Record videos');
+    break;
+  case 'Saturday':
+  case 'Sunday':
+    console.log('Enjoy the weekend 😊');
+    break;
+  default:
+    console.log('Not a valid day ❌');  
+} */
+
+// With if statement syntax
+
+/* if (day === 'Monday') {
+  console.log('Plan course structure');
+  console.log ('Go to coding meetup');
+} else if (day === 'Tuesday') {
+  console.log('Prepare theory videos');
+} else if (day === 'Wednesday' | 'Thursday') {
+  console.log('Write code examples');
+} else if (day === 'Friday') {
+  console.log('Record videos');
+} else if (day === 'Saturday' | 'Sunday') {
+  console.log('Enjoy the weekend 😊');
+} else {
+  console.log('Not a valid day ❌');
+} */
