@@ -304,29 +304,29 @@ if (scoreDolphins > scoreKoalas && scoreDolphins >= 100) {
   console.log("No one wins the trophy 😭");
 } */
 
-const day = 'Monday';
+/* const day = "Monday";
 
-/* switch (day) {
-  case 'Monday': // day === 'monday'
-    console.log('Plan course structure');
-    console.log ('Go to coding meetup');
+switch (day) {
+  case "Monday": // day === 'monday'
+    console.log("Plan course structure");
+    console.log("Go to coding meetup");
     break;
-  case 'Tuesday':
-    console.log('Prepare theory videos');
+  case "Tuesday":
+    console.log("Prepare theory videos");
     break;
-  case 'Wednesday':
-  case 'Thursday':
-    console.log('Write code examples');
+  case "Wednesday":
+  case "Thursday":
+    console.log("Write code examples");
     break;
-  case 'Friday':
-    console.log('Record videos');
+  case "Friday":
+    console.log("Record videos");
     break;
-  case 'Saturday':
-  case 'Sunday':
-    console.log('Enjoy the weekend 😊');
+  case "Saturday":
+  case "Sunday":
+    console.log("Enjoy the weekend 😊");
     break;
   default:
-    console.log('Not a valid day ❌');  
+    console.log("Not a valid day ❌");
 } */
 
 // With if statement syntax
