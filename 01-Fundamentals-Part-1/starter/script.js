@@ -345,3 +345,17 @@ switch (day) {
 } else {
   console.log('Not a valid day ❌');
 } */
+
+// STATEMENTS & EXPRESSIONS
+
+// EXPRESSIONS - Line of code that produces a value
+
+3 + 4;
+1991;
+true && false && !false;
+
+// STATEMENT - Like a bigger piece of code which DOES NOT produces a value on itself, like noral spoken lang
+
+if (23 > 10) {
+  const str = "23 is bigger";
+}
