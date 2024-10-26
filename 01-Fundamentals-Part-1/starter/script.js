@@ -374,6 +374,8 @@ console.log(`I'm ${2037 - 1991} years old ${me}.`);
 
 // 28. CONDITIONAL OPERATOR or TERNARY OPERATOR, always produces a value. An OPERATOR is an EXPRESSION
 
+/*
+
 const age = 23;
 
 // age >= 18
@@ -396,3 +398,17 @@ if (age >= 18) {
 console.log(drink2);
 
 console.log(`I like to drink ${age >= 18 ? "wine 🍷" : "water 💧"}`);
+
+*/
+
+// CHALLENGE #4
+
+const bill = 430;
+
+/* Write your code below. Good luck! 🙂 */
+
+const tip = bill >= 50 && bill <= 300 ? bill * 0.15 : bill * 0.2;
+
+console.log(
+  `The bill was ${bill}, the tip was ${tip}, and the total value ${bill + tip}`
+);
